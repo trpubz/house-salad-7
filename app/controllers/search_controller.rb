@@ -14,7 +14,7 @@ class SearchController < ApplicationController
 
     members = data[:results][0][:members]
 
-    found_members = members.find_all {|m| m[:last_name] == params[:search]}
+    found_members = members.find_all { |m| m[:last_name] == params[:search] }
     @member = found_members.first
     render "welcome/index"
   end

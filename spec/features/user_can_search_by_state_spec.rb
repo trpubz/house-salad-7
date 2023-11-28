@@ -1,10 +1,10 @@
-require 'rails_helper'
+require "rails_helper"
 
 feature "user can search for house members" do
   scenario "user submits valid state name" do
     # As a user
     # When I visit "/"
-    visit '/'
+    visit "/"
 
     select "Colorado", from: :state
     # And I select "Colorado" from the dropdown

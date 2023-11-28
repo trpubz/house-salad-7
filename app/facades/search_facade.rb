@@ -7,7 +7,7 @@ class SearchFacade
     service = CongressService.new
 
     json = service.members_by_state(@state)
-    
+
     @members = json[:results].map do |member_data|
       Member.new(member_data)
     end
