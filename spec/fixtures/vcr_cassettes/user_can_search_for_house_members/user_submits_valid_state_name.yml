@@ -27,27 +27,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Tue, 28 Nov 2023 17:12:31 GMT
+      - Tue, 28 Nov 2023 17:15:24 GMT
       X-Amzn-Requestid:
-      - 247716f4-03f5-4305-b5f0-3ab12e96885e
+      - d202949c-d724-4dce-86d8-783afbea4811
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - PHnb4GwfIAMED5A=
+      - PHn3EHFmoAMEBsw=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-65661f7e-2ce5b0f63f1691370dabf2e4;Sampled=0;lineage=5b3f852f:0
+      - Root=1-6566202c-09bf9ecb47c726543cf0bb12;Sampled=0;lineage=5b3f852f:0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 c919eabe071323f9a1b4ff171a300ae6.cloudfront.net (CloudFront)
+      - 1.1 ec0f42a36d3d8753c07cf1dc17d10fc8.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - PHX50-P1
       X-Amz-Cf-Id:
-      - "-FkOOQzd7SGPrjrOg2qyUL831VMJsAWmWUR8SXhizo_T3DSbGHd1fQ=="
+      - m3WTWVZcvlOneNc1ZjuKtkKdjgsEOFdWhlJcYULtAsIARSfWeyKLjg==
     body:
       encoding: UTF-8
       string: |
@@ -216,7 +216,7 @@ http_interactions:
                  "at_large": false
               }
         ]}
-  recorded_at: Tue, 28 Nov 2023 17:12:31 GMT
+  recorded_at: Tue, 28 Nov 2023 17:15:25 GMT
 - request:
     method: get
     uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
@@ -244,27 +244,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Tue, 28 Nov 2023 17:12:31 GMT
+      - Tue, 28 Nov 2023 17:15:25 GMT
       X-Amzn-Requestid:
-      - 5daab7c5-3b2a-4c26-8515-bb6ef5ed2e5e
+      - b53a0ece-48f6-4c5b-852c-3a2260961b13
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Headers:
       - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
       X-Amz-Apigw-Id:
-      - PHnb-EswIAMEiYQ=
+      - PHn3GHwuIAMECjQ=
       Access-Control-Allow-Methods:
       - GET,OPTIONS
       X-Amzn-Trace-Id:
-      - Root=1-65661f7f-48e3111a5275a0df29d866be;Sampled=0;lineage=5b3f852f:0
+      - Root=1-6566202d-46fce0821787716247900285;Sampled=0;lineage=5b3f852f:0
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 e0a0043c26183d67f99a46bb7af410e2.cloudfront.net (CloudFront)
+      - 1.1 79dd0e4c50f89af282c1a73e9fd669be.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - PHX50-P1
       X-Amz-Cf-Id:
-      - kdjQysBc3nSsjU46O7TKd_L6MiBDOihLhUYfhVCRcOOn9h3P1ZGWrg==
+      - pRrJKO64xyRocl-lqqqh7FnWdc4VlfCNQmu07xIWZtugU_aN-chc8w==
     body:
       encoding: UTF-8
       string: |
@@ -433,5 +433,5 @@ http_interactions:
                  "at_large": false
               }
         ]}
-  recorded_at: Tue, 28 Nov 2023 17:12:31 GMT
+  recorded_at: Tue, 28 Nov 2023 17:15:25 GMT
 recorded_with: VCR 6.2.0
